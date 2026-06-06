@@ -1,0 +1,64 @@
+## Структура базы данных
+
+### users
+
+Хранение учётных записей пользователей.
+
+| Поле      |
+| --------- |
+| id        |
+| login     |
+| password  |
+| full_name |
+| role      |
+
+### suppliers
+
+Справочник поставщиков.
+
+| Поле |
+| ---- |
+| id   |
+| name |
+
+### products
+
+Информация о товарах.
+
+| Поле         |
+| ------------ |
+| id           |
+| article      |
+| name         |
+| category     |
+| description  |
+| manufacturer |
+| supplier_id  |
+| price        |
+| unit         |
+| quantity     |
+| discount     |
+| image_path   |
+
+### orders
+
+Данные заказов.
+
+| Поле           |
+| -------------- |
+| id             |
+| article        |
+| status         |
+| pickup_address |
+| order_date     |
+| issue_date     |
+
+### order_products
+
+Связующая таблица товаров и заказов.
+
+| Поле       |
+| ---------- |
+| order_id   |
+| product_id |
+| quantity   |

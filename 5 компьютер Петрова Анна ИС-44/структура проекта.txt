@@ -1,0 +1,25 @@
+Состав проекта
+
+```
+project/
+│
+├── main.py
+├── database.py
+├── requirements.txt
+├── README.md //описание 
+│
+├── data/
+│   ├── products.xlsx
+│   ├── orders.xlsx
+│   ├── users.xlsx
+│   └── pickup_points.xlsx
+│
+├── windows/
+│   ├── login_window.py
+│   ├── products_window.py
+│   ├── product_form.py
+│   └── orders_window.py
+│
+├── images_source/
+└── images/
+```
